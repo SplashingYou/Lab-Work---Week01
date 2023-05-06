@@ -32,9 +32,9 @@ public class Extra_Credit {
             smallest2 = arr[i];
         }
     }
-    
+    double result = (double)(largest1 + largest2) / (double)(smallest1 + smallest2);
    
-    return (double)(largest1 + largest2) / (double)(smallest1 + smallest2);
+    return result;
 }
 
     public static void main(String[] args) {
